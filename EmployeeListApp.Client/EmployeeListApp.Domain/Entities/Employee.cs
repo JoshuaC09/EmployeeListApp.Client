@@ -26,7 +26,8 @@ namespace EmployeeListApp.Domain.Entities
         [MaxLength(250)]
         public string Address { get; set; } = string.Empty;
 
-        public long PhoneNumber { get; set; }
+        [MaxLength(50)]
+        public string PhoneNumber { get; set; }
         public EmployeeStatus Status { get; set; }
         public EmployeeGender Gender { get; set; }
     }

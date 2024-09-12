@@ -15,3 +15,4 @@ C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\Em
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.DataAccess\obj\Debug\net8.0\EmployeeListApp.DataAccess.pdb
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.DataAccess\obj\Debug\net8.0\EmployeeListApp.DataAccess.genruntimeconfig.cache
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.DataAccess\obj\Debug\net8.0\ref\EmployeeListApp.DataAccess.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.DataAccess\obj\Debug\net8.0\EmployeeListApp.DataAccess.sourcelink.json

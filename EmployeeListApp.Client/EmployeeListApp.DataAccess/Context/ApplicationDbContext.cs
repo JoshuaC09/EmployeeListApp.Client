@@ -24,7 +24,7 @@ namespace EmployeeListApp.DataAccess.Context
                     MiddleName = "Fernandez",
                     Email = "josh09@gmail.com",
                     Address = "Santa Maria, Bulacan",
-                    PhoneNumber = 09503334244,
+                    PhoneNumber = "09503334244",
                     Gender = EmployeeGender.Male,
                     Status = EmployeeStatus.Active
                 },
@@ -36,7 +36,7 @@ namespace EmployeeListApp.DataAccess.Context
                      MiddleName = "Fernandez",
                      Email = "james09@gmail.com",
                      Address = "Santa Maria, Bulacan",
-                     PhoneNumber = 095055635412,
+                     PhoneNumber = "095055635412",
                      Gender = EmployeeGender.Male,
                      Status = EmployeeStatus.Active
                  },
@@ -48,7 +48,7 @@ namespace EmployeeListApp.DataAccess.Context
                         MiddleName = "Fernandez",
                         Email = "mich09@gmail.com",
                         Address = "Santa Maria, Bulacan",
-                        PhoneNumber = 09505433362,
+                        PhoneNumber = "09505433362",
                         Gender = EmployeeGender.Female,
                         Status = EmployeeStatus.InActive
                     }

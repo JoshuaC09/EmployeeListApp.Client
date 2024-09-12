@@ -139,3 +139,4 @@ C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\Em
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.API\obj\Debug\net8.0\EmployeeListApp.API.pdb
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.API\obj\Debug\net8.0\EmployeeListApp.API.genruntimeconfig.cache
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.API\obj\Debug\net8.0\ref\EmployeeListApp.API.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.API\obj\Debug\net8.0\EmployeeListApp.API.sourcelink.json

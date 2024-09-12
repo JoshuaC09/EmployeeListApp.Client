@@ -9,3 +9,4 @@ C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\Em
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\refint\EmployeeListApp.Domain.dll
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.pdb
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\ref\EmployeeListApp.Domain.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.sourcelink.json
