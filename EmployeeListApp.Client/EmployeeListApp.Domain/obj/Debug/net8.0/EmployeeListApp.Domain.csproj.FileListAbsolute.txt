@@ -10,3 +10,15 @@ C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\Em
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.pdb
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\ref\EmployeeListApp.Domain.dll
 C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.sourcelink.json
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\bin\Debug\net8.0\EmployeeListApp.Domain.deps.json
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\bin\Debug\net8.0\EmployeeListApp.Domain.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\bin\Debug\net8.0\EmployeeListApp.Domain.pdb
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.AssemblyInfoInputs.cache
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.AssemblyInfo.cs
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.csproj.CoreCompileInputs.cache
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.sourcelink.json
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\refint\EmployeeListApp.Domain.dll
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\EmployeeListApp.Domain.pdb
+C:\EmployeeList\EmployeeListApp\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Client\EmployeeListApp.Domain\obj\Debug\net8.0\ref\EmployeeListApp.Domain.dll

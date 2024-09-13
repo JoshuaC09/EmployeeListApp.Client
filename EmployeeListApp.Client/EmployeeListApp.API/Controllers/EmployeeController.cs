@@ -1,6 +1,5 @@
 ﻿using EmployeeListApp.Domain.Entities;
 using EmployeeListApp.Domain.Repository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeListApp.API.Controllers
@@ -44,7 +43,7 @@ namespace EmployeeListApp.API.Controllers
 
             _unitOfWork.EmployeeRepository.Add(employee);
             _unitOfWork.SaveChanges();
-            return Ok("Successfully added an employee");
+            return Ok();
         }
 
         [HttpPut("{id}")]
@@ -58,11 +57,10 @@ namespace EmployeeListApp.API.Controllers
 
             _unitOfWork.EmployeeRepository.Update(updatedEmployee);
             _unitOfWork.SaveChanges();
-            return Ok("Successfully Updated an employee");
+            return Ok();
         }
 
         [HttpDelete("{id}")]
-
         public ActionResult DeleteEmployee(int id, Employee employee)
         {
             if(id == 0)
@@ -73,6 +71,5 @@ namespace EmployeeListApp.API.Controllers
             _unitOfWork.SaveChanges();
             return Ok();
         }
-
     }
 }
