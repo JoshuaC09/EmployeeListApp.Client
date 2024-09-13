@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeListApp.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240912164652_CreatingDatabase")]
-    partial class CreatingDatabase
+    [Migration("20240913013128_CreateDb")]
+    partial class CreateDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,8 +59,10 @@ namespace EmployeeListApp.DataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<long>("PhoneNumber")
-                        .HasColumnType("bigint");
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -79,7 +81,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             Gender = 0,
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
-                            PhoneNumber = 9503334244L,
+                            PhoneNumber = "09503334244",
                             Status = 1
                         },
                         new
@@ -91,7 +93,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             Gender = 0,
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
-                            PhoneNumber = 95055635412L,
+                            PhoneNumber = "095055635412",
                             Status = 1
                         },
                         new
@@ -103,7 +105,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             Gender = 1,
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
-                            PhoneNumber = 9505433362L,
+                            PhoneNumber = "09505433362",
                             Status = 0
                         });
                 });
