@@ -25,6 +25,7 @@ namespace EmployeeListApp.DataAccess.Context
                     Email = "josh09@gmail.com",
                     Address = "Santa Maria, Bulacan",
                     PhoneNumber = "09503334244",
+                    Salary = 12000,
                     Gender = EmployeeGender.Male,
                     Status = EmployeeStatus.Active
                 },
@@ -37,6 +38,7 @@ namespace EmployeeListApp.DataAccess.Context
                      Email = "james09@gmail.com",
                      Address = "Santa Maria, Bulacan",
                      PhoneNumber = "095055635412",
+                     Salary = 13000,
                      Gender = EmployeeGender.Male,
                      Status = EmployeeStatus.Active
                  },
@@ -49,6 +51,7 @@ namespace EmployeeListApp.DataAccess.Context
                         Email = "mich09@gmail.com",
                         Address = "Santa Maria, Bulacan",
                         PhoneNumber = "09505433362",
+                        Salary = 14000,
                         Gender = EmployeeGender.Female,
                         Status = EmployeeStatus.InActive
                     }
