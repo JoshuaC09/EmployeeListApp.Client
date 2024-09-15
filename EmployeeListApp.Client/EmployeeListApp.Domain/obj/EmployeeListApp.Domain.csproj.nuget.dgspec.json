@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EmployeeList\\EmployeeListApp\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj": {}
+    "C:\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj": {}
   },
   "projects": {
-    "C:\\EmployeeList\\EmployeeListApp\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj": {
+    "C:\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EmployeeList\\EmployeeListApp\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj",
+        "projectUniqueName": "C:\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj",
         "projectName": "EmployeeListApp.Domain",
-        "projectPath": "C:\\EmployeeList\\EmployeeListApp\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj",
+        "projectPath": "C:\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\EmployeeListApp.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\EmployeeList\\EmployeeListApp\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\obj\\",
+        "outputPath": "C:\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Client\\EmployeeListApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

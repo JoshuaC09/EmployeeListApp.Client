@@ -1,4 +1,5 @@
 ﻿using EmployeeListApp.DataAccess.Context;
+using EmployeeListApp.Domain.Entities;
 using EmployeeListApp.Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +33,15 @@ namespace EmployeeListApp.DataAccess.Implementation
         public async Task<T> GetByIdAsync(int id)
         {
             return await _context.Set<T>().FindAsync(id);
+        }
+
+        public async Task<IEnumerable<Employee>> SearchEmployeesAsync(string searchPattern)
+        {
+            var employees = await _context.Employees
+               .FromSqlRaw("EXEC sp_SearchEmployees @p0", searchPattern)
+               .ToListAsync();
+
+            return employees;
         }
     }
 }

@@ -68,6 +68,13 @@ namespace EmployeeListApp.API.Controllers
             await _unitOfWork.SaveAsync();
             return Ok();
         }
+
+            [HttpGet("search")]
+            public async Task<ActionResult<IEnumerable<Employee>>> SearchEmployees([FromQuery] string searchPattern)
+            {
+                var employees = await _unitOfWork.EmployeeRepository.SearchEmployeesAsync(searchPattern);
+                return Ok(employees);
+            }
     }
 }
         

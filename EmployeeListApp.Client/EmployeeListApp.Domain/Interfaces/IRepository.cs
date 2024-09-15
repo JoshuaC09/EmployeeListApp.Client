@@ -1,4 +1,4 @@
-﻿using System.Linq.Expressions;
+﻿using EmployeeListApp.Domain.Entities;
 
 namespace EmployeeListApp.Domain.Repository
 {
@@ -9,5 +9,6 @@ namespace EmployeeListApp.Domain.Repository
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
+        Task<IEnumerable<Employee>> SearchEmployeesAsync(string searchPattern);
     }
 }
