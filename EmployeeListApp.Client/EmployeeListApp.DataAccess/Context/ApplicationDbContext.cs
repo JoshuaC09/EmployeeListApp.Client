@@ -19,36 +19,39 @@ namespace EmployeeListApp.DataAccess.Context
                 new Employee
                 {
                     EmployeeId = 1,
-                    FirstName = "Joshua",
-                    LastName = "Canapi",
-                    MiddleName = "Fernandez",
-                    Email = "josh09@gmail.com",
+                    FirstName = "Test1",
+                    LastName = "Test1",
+                    MiddleName = "Test1",
+                    Email = "Test1@gmail.com",
                     Address = "Santa Maria, Bulacan",
                     PhoneNumber = "09503334244",
+                    Salary = 12000,
                     Gender = EmployeeGender.Male,
                     Status = EmployeeStatus.Active
                 },
                  new Employee
                  {
                      EmployeeId = 2,
-                     FirstName = "James",
-                     LastName = "Canapi",
-                     MiddleName = "Fernandez",
-                     Email = "james09@gmail.com",
+                     FirstName = "Test2",
+                     LastName = "Test2",
+                     MiddleName = "Test2",
+                     Email = "Test2@gmail.com",
                      Address = "Santa Maria, Bulacan",
                      PhoneNumber = "095055635412",
+                     Salary = 13000,
                      Gender = EmployeeGender.Male,
                      Status = EmployeeStatus.Active
                  },
                  new Employee
                     {
                         EmployeeId = 3,
-                        FirstName = "Mich",
-                        LastName = "Canapi",
-                        MiddleName = "Fernandez",
-                        Email = "mich09@gmail.com",
+                        FirstName = "Test3",
+                        LastName = "Test3",
+                        MiddleName = "Test3",
+                        Email = "Test3@gmail.com",
                         Address = "Santa Maria, Bulacan",
                         PhoneNumber = "09505433362",
+                        Salary = 14000,
                         Gender = EmployeeGender.Female,
                         Status = EmployeeStatus.InActive
                     }

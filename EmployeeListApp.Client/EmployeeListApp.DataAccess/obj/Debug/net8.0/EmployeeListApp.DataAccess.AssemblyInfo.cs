@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeListApp.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a720cdca9e17740ca3938fc6b25f6b834108c57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd8e603bfdeefbc90af9027c4ecb4cc9920b243f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeListApp.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeListApp.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
