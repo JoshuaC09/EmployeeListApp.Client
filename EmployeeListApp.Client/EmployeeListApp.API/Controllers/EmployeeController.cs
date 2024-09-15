@@ -15,17 +15,16 @@ namespace EmployeeListApp.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAllEmployees()
+        public async Task<ActionResult> GetAllEmployees()
         {
-            IEnumerable<Employee> employeeFromRepository = _unitOfWork.EmployeeRepository.GetAll();
+            IEnumerable<Employee> employeeFromRepository = await _unitOfWork.EmployeeRepository.GetAllAsync();
             return Ok(employeeFromRepository);
         }
 
         [HttpGet("{id}")]
-
-        public ActionResult GetEmployeeById(int id)
+        public async Task<ActionResult> GetEmployeeById(int id)
         {
-            Employee employee = _unitOfWork.EmployeeRepository.GetById(id);
+            Employee employee = await _unitOfWork.EmployeeRepository.GetByIdAsync(id);
             if (employee == null)
             {
                 return NotFound();
@@ -34,42 +33,41 @@ namespace EmployeeListApp.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult CreateEmployee(Employee employee)
+        public async Task<ActionResult> CreateEmployee([FromBody] Employee employee)
         {
             if (employee == null)
             {
                 return BadRequest("Employee data is required");
             }
-
-            _unitOfWork.EmployeeRepository.Add(employee);
-            _unitOfWork.SaveChanges();
+            await _unitOfWork.EmployeeRepository.AddAsync(employee);
+            await _unitOfWork.SaveAsync();
             return Ok();
         }
 
         [HttpPut("{id}")]
-        public ActionResult UpdateEmployee (int id, Employee updatedEmployee)
+        public async Task<ActionResult> UpdateEmployee(int id, Employee updatedEmployee)
         {
-
             if (id == 0)
             {
                 return NotFound();
             }
-
-            _unitOfWork.EmployeeRepository.Update(updatedEmployee);
-            _unitOfWork.SaveChanges();
-            return Ok();
+            await _unitOfWork.EmployeeRepository.UpdateAsync(updatedEmployee);
+            await _unitOfWork.SaveAsync();
+            return Ok(updatedEmployee);
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteEmployee(int id, Employee employee)
+        public async Task<ActionResult> DeleteEmployee(int id)
         {
-            if(id == 0)
+            var employee = await _unitOfWork.EmployeeRepository.GetByIdAsync(id);
+            if (employee == null)
             {
                 return NotFound();
             }
-            _unitOfWork.EmployeeRepository.Delete(employee);
-            _unitOfWork.SaveChanges();
+            await _unitOfWork.EmployeeRepository.DeleteAsync(employee);
+            await _unitOfWork.SaveAsync();
             return Ok();
         }
     }
 }
+        

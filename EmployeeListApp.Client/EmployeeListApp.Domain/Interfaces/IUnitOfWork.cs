@@ -3,6 +3,6 @@
     public interface IUnitOfWork : IDisposable
     {
         IEmployeeRepository EmployeeRepository { get; }
-        int SaveChanges();
+        Task<int> SaveAsync();
     }
 }

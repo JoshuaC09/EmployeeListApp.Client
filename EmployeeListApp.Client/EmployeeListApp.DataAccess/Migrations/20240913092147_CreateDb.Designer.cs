@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeListApp.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240913032131_CreateDb")]
+    [Migration("20240913092147_CreateDb")]
     partial class CreateDb
     {
         /// <inheritdoc />
@@ -64,6 +64,9 @@ namespace EmployeeListApp.DataAccess.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<decimal>("Salary")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -82,6 +85,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
                             PhoneNumber = "09503334244",
+                            Salary = 12000m,
                             Status = 1
                         },
                         new
@@ -94,6 +98,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
                             PhoneNumber = "095055635412",
+                            Salary = 13000m,
                             Status = 1
                         },
                         new
@@ -106,6 +111,7 @@ namespace EmployeeListApp.DataAccess.Migrations
                             LastName = "Canapi",
                             MiddleName = "Fernandez",
                             PhoneNumber = "09505433362",
+                            Salary = 14000m,
                             Status = 0
                         });
                 });

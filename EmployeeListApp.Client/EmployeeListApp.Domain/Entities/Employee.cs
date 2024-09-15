@@ -28,6 +28,10 @@ namespace EmployeeListApp.Domain.Entities
 
         [MaxLength(50)]
         public string PhoneNumber { get; set; }
+
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Salary { get; set; }
+
         public EmployeeStatus Status { get; set; }
         public EmployeeGender Gender { get; set; }
     }
